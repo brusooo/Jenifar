@@ -22,7 +22,7 @@ const Skill = () => {
             />
           </div>
 
-          <div className="absolute top-0 right-0 w-1/2 min-h-full mt-5 max-[640px]:mt-10 max-[1000px]:relative max-[640px]:flex-col flex justify-center items-center max-[1000px]:w-full max-[1000px]:left-0 max-[1000px]:gap-10">
+          <div className="absolute top-0 right-0  w-1/2 min-h-full max-[640px]:mt-10 max-[1000px]:relative max-[640px]:flex-col flex justify-center items-center max-[1000px]:w-full max-[1000px]:left-0 max-[1000px]:gap-10">
             <SkillCard
               pos={"absolute top-0 right-0 "}
               description={skillCards.cardThree.description}
