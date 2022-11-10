@@ -7,20 +7,20 @@ const About = () => {
     <section class="relative w-screen min-h-[100vh] bg-white flex max-[1070px]:flex-col ">
       <div class="relative w-1/2 min-h-full max-[1070px]:w-full translate-y-11  flex flex-col gap-14  justify-center items-center">
         <img
-          src="/images/man.png"
+          src="/images/aboutPage/man.png"
           alt="pencil"
           class="max-[1200px]:scale-[.85] max-[1070px]:translate-x-0  max-[1070px]:translate-y-0  max-[1200px]:-translate-y-4 -translate-y-12 -translate-x-20"
         />
-        <h1 class="text-7xl max-[1200px]:text-6xl -translate-x-20 -translate-y-24 font-pacifico max-[1070px]:translate-x-0 ">
+        <h1 class="text-7xl max-[1200px]:text-6xl flex justify-center items-center flex-col gap-5 -translate-x-20 -translate-y-24 font-pacifico max-[1070px]:translate-x-0 ">
           Know more <br />
-          <span class="relative text-6xl max-[1200px]:text-5xl text-[#8807c9]">
+          <span class="relative text-6xl max-[1200px]:text-5xl text-purple">
             About Me
           </span>
         </h1>
       </div>
       <div class="relative w-1/2 min-h-full flex justify-center items-center max-[1070px]:w-full max-[1070px]:gap-32  max-[1070px]:flex-col">
         <AboutCard
-          divProps="max-[1070px]:translate-y-10 top-[11%] -left-[10%] max-[1200px]:-translate-x-28 max-[1380px]:-translate-x-11 "
+          divProps="max-[1070px]:translate-y-10 top-[11%] translate-y-10 -left-[10%] max-[1200px]:-translate-x-28 max-[1380px]:-translate-x-11 "
           quotes={aboutCards.cardOne.quotes}
           percentage={aboutCards.cardOne.percentage}
           year={aboutCards.cardOne.year}
@@ -36,7 +36,7 @@ const About = () => {
         />
 
         <AboutCard
-          divProps="max-[1070px]:translate-y-0  bottom-6 max-[1200px]:-translate-x-20   -left-0  max-[1380px]:-left-[8%]"
+          divProps="max-[1070px]:-translate-y-4  bottom-0 max-[1200px]:-translate-x-20   left-5  max-[1380px]:-left-[10%]"
           quotes={aboutCards.cardThree.quotes}
           percentage={aboutCards.cardThree.percentage}
           year={aboutCards.cardThree.year}

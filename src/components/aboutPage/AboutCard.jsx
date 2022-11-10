@@ -5,7 +5,7 @@ const AboutCard = ({ divProps, quotes, percentage, year, img }) => {
 
   return (
     <div
-      class={`absolute ${divProps} w-72 h-72 rounded-3xl max-[1070px]:relative max-[1070px]:translate-x-0  max-[1200px]:-translate-x-14  bg-white shadow-2xl  max-[1070px]:left-0 flex justify-center items-center`}
+      class={`absolute ${divProps} w-72 h-72 rounded-3xl max-[1070px]:relative max-[1070px]:translate-x-0  max-[1200px]:-translate-x-14  bg-white shadow-cards  max-[1070px]:left-0 flex justify-center items-center`}
     >
       <img
         src={`${img}`}
@@ -19,15 +19,15 @@ const AboutCard = ({ divProps, quotes, percentage, year, img }) => {
           {quotes} <br />
           <br />
           {year} <br />
-          <span class="text-[#8807c9] font-pacifico">{percentage}</span>
+          <span class="text-purple font-pacifico">{percentage}</span>
         </p>
       ) : (
         <p class="relative p-5  translate-y-8 font-bold font-leaguespartan text-xl">
           {quotes}
-          <span class="text-[#8807c9]">{percentage}</span>
+          <span class="text-purple">{percentage}</span>
         </p>
       )}
-      <span class="absolute w-32 h-1 rounded-lg bg-[#8807c9] top-10 left-5 animate-scaleLine"></span>
+      <span class="absolute w-32 h-1 rounded-lg bg-purple top-10 left-5 animate-scaleLine"></span>
     </div>
   );
 };

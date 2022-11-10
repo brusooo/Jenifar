@@ -3,6 +3,16 @@ module.exports = {
   content: ["./src/**/*.{html,js,jsx}" , "./index.html"],
   theme: {
     extend: {
+      gridTemplateColumns: {
+        'skill': 'repeat(auto-fill, 250px)',
+      },
+      colors: {
+        'purple': '#8807c9',
+      },
+      boxShadow: {
+        'cards': '6px 6px 10px 6px rgba(0, 0, 0, 0.1)',
+        'skills': '0 0 10px 5px rgba(0, 0, 0, 0.1)',
+      },
       fontFamily: {
         'leaguespartan': ['leaguespartan' ,'sans-serif'],
         'pacifico': ['pacifico' ,'sans-serif'],
