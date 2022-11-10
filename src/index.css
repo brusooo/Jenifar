@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "leaguespartan";
+    src: url("/fonts/Leaguespartan_bold.ttf");
+  }
+  
+  @font-face {
+    font-family: "pacifico";
+    src: url("/fonts/Pacifico.ttf");
+  }
+  
+  @font-face {
+    font-family: "quintessential";
+    src: url("/fonts/Quintessential.ttf");
+  }
+  
+  html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
+  
+  ::-webkit-scrollbar{
+    display: none;
+  }
