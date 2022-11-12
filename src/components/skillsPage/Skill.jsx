@@ -10,30 +10,22 @@ const Skill = () => {
           <div className="absolute top-0 left-0 w-1/2  min-h-full flex max-[640px]:flex-col justify-center items-center max-[1000px]:relative max-[1000px]:w-full max-[1000px]:left-0 max-[1000px]:gap-10">
             <SkillCard
               pos={"absolute top-0 left-0"}
-              description={skillCards.cardOne.description}
-              imgSrcOne={skillCards.cardOne.imgSrcOne}
-              imgSrcTwo={skillCards.cardOne.imgSrcTwo}
+              source={skillCards.cardOne}
             />
             <SkillCard
               pos={"absolute bottom-0 left-[20%] max-[1000px]:left-0 max-[1000px]:top-0"}
-              description={skillCards.cardTwo.description}
-              imgSrcOne={skillCards.cardTwo.imgSrcOne}
-              imgSrcTwo={skillCards.cardTwo.imgSrcTwo}
+              source={skillCards.cardTwo}
             />
           </div>
 
           <div className="absolute top-0 right-0  w-1/2 min-h-full max-[640px]:mt-10 max-[1000px]:relative max-[640px]:flex-col flex justify-center items-center max-[1000px]:w-full max-[1000px]:left-0 max-[1000px]:gap-10">
             <SkillCard
               pos={"absolute top-0 right-0 "}
-              description={skillCards.cardThree.description}
-              imgSrcOne={skillCards.cardThree.imgSrcOne}
-              imgSrcTwo={skillCards.cardThree.imgSrcTwo}
+              source={skillCards.cardThree}
             />
             <SkillCard
               pos={"absolute bottom-0 right-[20%] max-[1000px]:bottom-0 max-[1000px]:left-0 max-[1000px]:right-0"}
-              description={skillCards.cardFour.description}
-              imgSrcOne={skillCards.cardFour.imgSrcOne}
-              imgSrcTwo={skillCards.cardFour.imgSrcTwo}
+              source={skillCards.cardFour}
             />
           </div>
         </div>
@@ -44,7 +36,9 @@ const Skill = () => {
           <h3 className="text-xl max-[1000px]:text-xl max-[640px]:text-base font-leaguespartan opacity-60 max-[1300px]:text-base max-[1200px]:text-[15px]">
             When love and skill work together, expect a masterpiece.
           </h3>
+          <div className="w-[80%] h-1 bg-purple -translate-y-5 origin-center animate-skillsLine" />
         </div>
+    
       </div>
     </section>
   );

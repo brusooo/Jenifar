@@ -45,30 +45,34 @@ export const aboutCards = {
 
 export const skillCards = {
     cardOne: {
-        description: ' C is a general-purpose, procedural computer programming language.\
-          Python is an interpreted, high- level, general- purpose programming \
-            language.',
+        descriptionStartPurple : "Next Js a framework ",
+        descriptionStart : "that holds React on its base, while ",
+        descriptionEndPurple : "React JS is a JavaScript library ",
+        descriptionEnd : "developed by Facebook. Next JS performs server-side rendering,",
         imgSrcOne: '/images/skillsPage/react.svg',
         imgSrcTwo: '/images/skillsPage/nextjs.svg'
     },
     cardTwo: {
-        description: ' C is a general-purpose, procedural computer programming language.\
-          Python is an interpreted, high- level, general- purpose programming \
-            language.',
+        descriptionStartPurple : "HTML",
+        descriptionStart : " a scripting language, used with ",
+        descriptionEndPurple : "Javascript ",
+        descriptionEnd : "the most popular programming language , to make web pages attractive and interacive. ",
         imgSrcOne: '/images/skillsPage/html.svg',
         imgSrcTwo: '/images/skillsPage/javaScript.svg'
     },
     cardThree: {
-        description: ' C is a general-purpose, procedural computer programming language.\
-          Python is an interpreted, high- level, general- purpose programming \
-            language.',
+        descriptionStartPurple : " C",
+        descriptionStart : " ,a general-purpose programming language, Whereas ",
+        descriptionEndPurple : "Python ",
+        descriptionEnd : "is an interpreted, high- level, general- purpose programming language",
         imgSrcOne: '/images/skillsPage/python.svg',
         imgSrcTwo: '/images/skillsPage/c.svg'
     },
     cardFour: {
-        description: ' C is a general-purpose, procedural computer programming language.\
-          Python is an interpreted, high- level, general- purpose programming \
-            language.',
+        descriptionStartPurple : "Java ",
+        descriptionStart : "is an Object-Oriented Programming language, whereas ",
+        descriptionEndPurple : "Kotlin ",
+        descriptionEnd : "features the behavior of both OOPs and Functional programming languages.",
         imgSrcOne: '/images/skillsPage/java.svg',
         imgSrcTwo: '/images/skillsPage/kotlin.svg'
     }

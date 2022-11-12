@@ -1,17 +1,28 @@
 import React from "react";
 
-const SkillCard = ({ pos, description, imgSrcOne, imgSrcTwo }) => {
+const SkillCard = ({ pos, source }) => {
   return (
     <div
-      className={`${pos} p-2  max-[1000px]:relative w-64 h-80 bg-white flex flex-col shadow-skills rounded-3xl`}
+      className={`${pos} p-2 max-[1000px]:relative w-64 h-80 rounded-xl bg-white flex flex-col shadow-skills`}
     >
-      <div className="w-full h-1/2 flex justify-center gap-10 items-center">
-        <img className="w-16 h-16" src={imgSrcOne} alt="" />
-        <img className="w-16 h-16" src={imgSrcTwo} alt="" />
+      <div className="w-full h-1/2 flex justify-center gap-5 items-center">
+        <img
+          className="w-24 h-24 p-4 rounded-lg bg-gray-100 "
+          src={source.imgSrcOne}
+          alt=""
+        />
+        <img
+          className="w-24 h-24 p-4  rounded-lg bg-gray-100"
+          src={source.imgSrcTwo}
+          alt=""
+        />
       </div>
       <div className="w-full h-[75%] ">
-        <p className="mx-4 mb-4 font-leaguespartan text-center">
-          {description}
+        <p className="mx-4 mt-3 font-leaguespartan">
+          <span className="text-purple font-pacifico">{source.descriptionStartPurple}</span>
+          {source.descriptionStart}
+          <span className="text-purple font-pacifico">{source.descriptionEndPurple}</span>
+          {source.descriptionEnd}
         </p>
       </div>
     </div>

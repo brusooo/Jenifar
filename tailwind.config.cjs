@@ -22,7 +22,8 @@ module.exports = {
         'moveUp': 'moveUp 5s linear infinite',
         'moveDown': 'moveDown 5s linear infinite',
         'moveSide': 'moveSide 5s linear infinite',
-        'scaleLine': 'scaleLine 5s linear infinite'
+        'scaleLine': 'scaleLine 5s linear infinite',
+        'skillsLine': 'skillsLine 8s linear infinite'
       },
       keyframes: {
         moveUp: {
@@ -41,6 +42,10 @@ module.exports = {
         scaleLine: {
           '0%,100%' : { width : '30px' },
           '50%': { width : '128px' },
+        },
+        skillsLine: {
+          '0%,100%' : { width : '70%' },
+          '50%': { width : '0%' },
         }
       }
     },
