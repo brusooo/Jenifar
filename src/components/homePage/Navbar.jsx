@@ -19,6 +19,11 @@ const Navbar = () => {
           ))}
         </ul>
       </nav>
+      <div className="absolute right-0 w-10 h-10 bg-red-500">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
     </div>
   );
 };
