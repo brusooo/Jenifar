@@ -17,7 +17,7 @@
   src: url("/fonts/Quintessential.ttf");
 }
 
-html {
+html,body{
   scroll-behavior: smooth;
   overflow-x: hidden;
   user-select: none;
