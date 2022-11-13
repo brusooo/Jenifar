@@ -16,8 +16,7 @@ module.exports = {
       },
       fontFamily: {
         'leaguespartan': ['leaguespartan' ,'sans-serif'],
-        'pacifico': ['pacifico' ,'sans-serif'],
-        'quintessential': ['quintessential' ,'sans-serif']
+        'pacifico': ['pacifico' ,'sans-serif']
       },
       animation: {
         'moveUp': 'moveUp 5s linear infinite',
