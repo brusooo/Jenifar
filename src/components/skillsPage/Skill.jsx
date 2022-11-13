@@ -4,7 +4,7 @@ import { skillCards } from "../../constants";
 
 const Skill = () => {
   return (
-    <section id="skill" className="relative w-screen min-h-[100vh] max-[1000px]:min-h-[120vh] top-10 flex justify-center items-center">
+    <section id="skills" className="relative w-screen min-h-[100vh] max-[1000px]:min-h-[120vh] top-10 flex justify-center items-center">
       <div className="relative w-[90%] max-[1000px]:w-[95%] min-h-screen flex justify-center items-center max-[1000px]:flex-col-reverse  ">
         <div className=" relative w-[90%] max-[1200px]:w-full h-[700px] max-[1000px]:h-full flex-col  justify-center items-center">
           <div className="absolute top-0 left-0 w-1/2  min-h-full flex max-[640px]:flex-col justify-center items-center max-[1000px]:relative max-[1000px]:w-full max-[1000px]:left-0 max-[1000px]:gap-10">

@@ -8,11 +8,11 @@ export const navLinks = [
         title: "About",
     },
     {
-        id: "skill",
+        id: "skills",
         title: "Skills",
     },
     {
-        id: "project",
+        id: "projects",
         title: "Projects",
     },
     {
@@ -87,6 +87,7 @@ export const projects = {
         img : '/images/projectsPage/countonyou.png',
         description : 'Count on You, a notes making app developed using Next js that holds \
         React on its base',
+        link : 'https://countonyou.netlify.app/',
         pos  :'left'
     },
     projectTwo : {
@@ -95,6 +96,7 @@ export const projects = {
         img : '/images/projectsPage/myprojects.png',
         description : 'My entire project Collections from the beginning of my journey in \
         my domain unitl now',
+        link : 'https://brusooo.netlify.app/' ,
         pos  :'center'
     },
     projectThree : {
@@ -102,6 +104,7 @@ export const projects = {
         subtitle : "Wallapaper Collections App",
         img : '/images/projectsPage/wallarant.png',
         description : 'Wallarant, an android app built using koltin . which has Collections of Wallapapers.',
+        link : '/',
         pos  :'right'
     }
 }

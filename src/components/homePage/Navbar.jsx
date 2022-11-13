@@ -5,7 +5,7 @@ const Navbar = () => {
   const [active, setactive] = useState(false);
   return (
     <div className="absolute top-0 left-0 z-[11] w-screen">
-      <nav className="w-full flex p-4 z-1 ">
+      <nav className="w-full flex px-4 py-2 z-1 ">
         <div className="font-bold text-3xl font-leaguespartan py-3  px-4">
           <h3>Brusooo</h3>
         </div>
@@ -15,7 +15,7 @@ const Navbar = () => {
           {navLinks.map((nav) => (
             <li
               key={nav.id}
-              className={`px-3 py-0 rounded-3xl ${
+              className={`px-3 py-1 rounded-3xl ${
                 nav.title == "Home"
                   ? "bg-[#8807c9] text-white"
                   : "bg-transparent"
