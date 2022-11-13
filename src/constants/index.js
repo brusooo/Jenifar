@@ -8,11 +8,11 @@ export const navLinks = [
         title: "About",
     },
     {
-        id: "skills",
+        id: "skill",
         title: "Skills",
     },
     {
-        id: "projects",
+        id: "project",
         title: "Projects",
     },
     {
@@ -77,4 +77,31 @@ export const skillCards = {
         imgSrcTwo: '/images/skillsPage/kotlin.svg'
     }
 
+}
+
+
+export const projects = {
+    projectOne : {
+        title : "Count on You",
+        subtitle : "Notes making app",
+        img : '/images/projectsPage/countonyou.png',
+        description : 'Count on You, a notes making app developed using Next js that holds \
+        React on its base',
+        pos  :'left'
+    },
+    projectTwo : {
+        title : "My Projects",
+        subtitle : "Collections of my projecs",
+        img : '/images/projectsPage/myprojects.png',
+        description : 'My entire project Collections from the beginning of my journey in \
+        my domain unitl now',
+        pos  :'center'
+    },
+    projectThree : {
+        title : "Wallarant",
+        subtitle : "Wallapaper Collections App",
+        img : '/images/projectsPage/wallarant.png',
+        description : 'Wallarant, an android app built using koltin . which has Collections of Wallapapers.',
+        pos  :'right'
+    }
 }

@@ -3,7 +3,7 @@ import React from "react";
 const SkillCard = ({ pos, source }) => {
   return (
     <div
-      className={`${pos} p-2 max-[1000px]:relative w-64 h-80 rounded-xl bg-white flex flex-col shadow-skills`}
+      className={`${pos} p-2 max-[1000px]:relative max-[1000px]:mb-3 max-[1000px]:mt-3 w-64 h-80 rounded-xl bg-white flex flex-col shadow-skills`}
     >
       <div className="w-full h-1/2 flex justify-center gap-5 items-center">
         <img

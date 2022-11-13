@@ -3,25 +3,54 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: "leaguespartan";
-    src: url("/fonts/Leaguespartan_bold.ttf");
-  }
-  
-  @font-face {
-    font-family: "pacifico";
-    src: url("/fonts/Pacifico.ttf");
-  }
-  
-  @font-face {
-    font-family: "quintessential";
-    src: url("/fonts/Quintessential.ttf");
-  }
-  
-  html{
-    scroll-behavior: smooth;
-    overflow-x: hidden;
-  }
-  
-  ::-webkit-scrollbar{
-    display: none;
-  }
+  font-family: "leaguespartan";
+  src: url("/fonts/Leaguespartan_bold.ttf");
+}
+
+@font-face {
+  font-family: "pacifico";
+  src: url("/fonts/Pacifico.ttf");
+}
+
+@font-face {
+  font-family: "quintessential";
+  src: url("/fonts/Quintessential.ttf");
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.contactLeft::before {
+  content: "";
+  position: absolute;
+  top: 15%;
+  right: -85px;
+  z-index: 1;
+  width: 85px;
+  height: 40px;
+  border-top-right-radius: 18px;
+  border-bottom-right-radius: 18px;
+  background-color: #8807c9;
+}
+
+.contactLeft::after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  bottom:15%;
+  right: -85px;
+  width: 85px;
+  height: 40px;
+  border-top-right-radius: 18px;
+  border-bottom-right-radius: 18px;
+  background-color: #8807c9;
+}
+
+

@@ -3,7 +3,7 @@ import Navbar from "./Navbar";
 
 const Home = () => {
   return (
-    <section className="relative top-0 left-0 w-screen min-h-[95vh] overflow-y-visible">
+    <section id="home" className="z-10  relative top-0 left-0 w-screen min-h-[95vh] overflow-y-visible">
       <Navbar />
 
       <div className="absolute top-0 left-0 w-screen h-screen bg-white -z-10 blur-lg ">
@@ -34,11 +34,13 @@ const Home = () => {
           </div>
         </div>
         <div className="relative w-1/2 h-full max-[870px]:mt-12  flex justify-center items-center  max-[870px]:w-full max-[870px]:h-1/2">
-          <div className="relative   max-[1300px]:scale-[.85] max-[870px]:scale-100 w-[420px] h-[420px] flex justify-center items-center rounded-full border-8 border-y-transparent border-x-[#8807c9] ">
-            <div className="relative w-96 max-[600px]:scale-100   h-96 bg-[url('/images/homePage/avatar.jpg')] rounded-full bg-cover bg-no-repeat bg-center overflow-hidden"></div>
+          <div className="relative top-12 max-[870px]:top-0  w-[420px] h-[420px] flex justify-center items-center">
+            <img src="/images/homePage/mike.png" className="max-[870px]:scale-100 scale-150" alt="" />
           </div>
         </div>
       </div>
+
+      
     </section>
   );
 };
