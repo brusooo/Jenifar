@@ -10,6 +10,9 @@ const Project = () => {
           <h1 className="text-6xl font-pacifico max-[800px]:text-5xl text-purple">
             Projects
           </h1>
+          <h3 className="relative text-xl max-[1000px]:text-base max-[640px]:text-[8px] font-leaguespartan opacity-60 max-[800px]:text-base max-[1200px]:text-[15px]">
+            The key to successful leadership today is influence not authority.
+          </h3>
           <span className="w-96 max-[600px]:w-82 h-1 text-center bg-purple -translate-y-4 origin-center animate-skillsLine" />
         </div>
       </div>
