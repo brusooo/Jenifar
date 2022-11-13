@@ -33,7 +33,7 @@ const Skill = () => {
           <h1 className="text-6xl font-pacifico max-[1300px]:text-5xl text-purple">
             Skills
           </h1>
-          <h3 className="text-xl max-[1000px]:text-xl max-[640px]:text-[8px] font-leaguespartan opacity-60 max-[1300px]:text-base max-[1200px]:text-[15px]">
+          <h3 className="text-xl max-[1000px]:text-xl max-[640px]:text-sm font-leaguespartan opacity-60 max-[1300px]:text-base max-[1200px]:text-[15px]">
             When love and skill work together, expect a masterpiece.
           </h3>
           <div className="w-1/2 max-[1000px]:scale-x-[0.5]  h-1 bg-purple -translate-y-5 origin-center animate-skillsLine" />
