@@ -1,11 +1,16 @@
 import React from "react";
-import { Fade } from "react-reveal";
+import { motion } from "framer-motion";
 
 const ProjectCard = ({ source }) => {
   return (
-    <Fade bottom>
+    <motion.div
+      initial={{ y: 100 }} 
+      whileInView={{y: 0}}
+      viewport={{ once: true }}
+      transition={{ type: "spring", stiffness: 300 }}
+    >
       <div
-        className={`relative w-[330px] max-lg:scale-100 max-xl:scale-x-[1.2] h-96 flex flex-col bg-white rounded-lg shadow-2xl p-2`}
+        className={`relative w-[300px] max-lg:scale-100 max-xl:scale-x-[1.2] h-96 flex flex-col bg-white rounded-lg shadow-2xl p-2`}
       >
         <div className="relative w-full h-[20%] flex justify-start items-center ">
           <span className="relative left-3 w-[6px] rounded-full h-12 bg-purple"></span>
@@ -30,7 +35,7 @@ const ProjectCard = ({ source }) => {
           </p>
         </div>
       </div>
-    </Fade>
+    </motion.div>
   );
 };
 
