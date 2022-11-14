@@ -96,7 +96,7 @@ export const projects = {
         img : '/images/projectsPage/myprojects.png',
         description : 'My entire project Collections from the beginning of my journey in \
         my domain unitl now',
-        link : 'https://jenifar.netlify.app/' ,
+        link : 'https://brusooo.netlify.app/' ,
         pos  :'center'
     },
     projectThree : {
