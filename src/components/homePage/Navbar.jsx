@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <div className="absolute top-0 left-0 z-[11] w-screen">
       <nav className="w-full flex px-4 py-2 z-1 ">
-        <div className="font-bold text-3xl font-leaguespartan py-3  px-4">
+        <div className="font-bold text-3xl font-leaguespartan py-3  px-4z">
           <h3>Brusooo</h3>
         </div>
         <ul
