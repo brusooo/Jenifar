@@ -18,8 +18,8 @@ const Home = () => {
       <div className="absolute top-0 left-0 w-screen h-screen max-[870px]:flex-col-reverse max-[870px]:top-10 flex flex-row flex-initial justify-center items-center">
         <motion.div
           className="relative w-1/2 h-full  max-[870px]:w-full max-[870px]:h-1/2  max-[600px]:mb-24"
-          initial={{ opacity: 0 , x : -100 }}
-          whileInView={{ opacity: 1 ,  x : 0 }}
+          initial={{ opacity: 0, x: -100 }}
+          whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
           transition={{ type: "spring", stiffness: 200 }}
         >
@@ -38,8 +38,11 @@ const Home = () => {
               </h1>
             </div>
 
-            <p className="py-3 font-bold min-[1070px]:text-[36px] max-[600px]:text-2xl max-[1070px]:text-[27px]  font-leaguespartan">
-              A Creative Web Designer and Developer{" "}
+            <p className="py-3 font-bold min-[1070px]:text-[28px] max-[600px]:text-xl max-[1070px]:text-[20px]  font-leaguespartan">
+              Creative Web Designer and Developer
+              <br />
+              <span className="text-2xl text-[#5E548E]">and a</span> Aspiring
+              Data Scientist
             </p>
           </div>
         </motion.div>
